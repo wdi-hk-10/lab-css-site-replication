@@ -5,6 +5,85 @@ light blue: #1c5380
 */
 
 body {
+  background: #fff url('../images/bgtile.png') repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  position: relative;
+}
+
+.topdog {
+  position: static;
+  margin-top: 40px;
+  right: 20%;
+}
+
+.bigdog {
+  float: right;
+  text-align: left;
+  margin-right: 200px;
+}
+
+.button {
+  background: linear-gradient (#4a7598, #6c90ad);
+}
+
+.underdog {
+  position: absolute;
+  left: 45%;
+  right: 1%;
+  top: 20%;
+  bottom: 10%;
+  padding: 10px;
+
+}
+
+h1 {
+  z-index: 100;
+  position: absolute;
+  margin-top: -250px;
+  left: 9%;
+  font-family: arial;
+  color: #333972;
+  line-height: 98%;
+}
+
+.text {
+  z-index: 100;
+  display: absolute;
+  position: relative;
+  margin-top: -220px;
+  left: 8%;
+  display: inline-block;
+}
+
+.butts {
+position: relative;
+left: 15%;
+margin-top: -60px;
+}
+
+section {
+  position: relative;
+  text-align: center;
+  margin: 100px;
+  }
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 90px;
+}
+
+nav>ul>li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px 10px;
+  color: #517fa4;
+  margin-top: 100px;
+}
+
+.special {
+  color: gray;
 }
