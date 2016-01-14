@@ -5,6 +5,78 @@ light blue: #1c5380
 */
 
 body {
+  background: #fff url(/Users/Orphiex/code/labs/week01/1-3:_CSS_Site_Replication/lab-css-site-replication/images/bgtile.png) repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+section {
+  margin: 100px 30px 0px 30px;
+}
+
+#text {
+  width: 45%
+}
+
+#frame {
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+#phone {
+  float: left;
+  margin-left: 250px;
+}
+
+article {
+  max-width: 455px;
+  padding: 10px 0 0 30px;
+}
+
+button {
+  padding: 10px 15px 10px 5px;
+  border-radius: 3px;
+  background-color: #4090db;
+  border-color: #4090db;
+  float: right;
+  margin-right: 115px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: right;
+  width: 100px;
+}
+
+h1 {
+  color: #06365f;
+}
+
+nav {
+  padding: 40px 40px 40px 40px;
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #1c5380;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }
